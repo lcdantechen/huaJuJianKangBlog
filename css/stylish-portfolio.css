@@ -21,7 +21,7 @@ body {
 }
 
 footer {
-    background-color: #b40431;
+    background-color: #0077d5;
 }
 
 .topH3 {
@@ -60,11 +60,22 @@ footer {
 
 
 .navbar {
-    background-color: #b40431;
+    background-color: #004074;
    
 }
 .navbar-default .navbar-nav>li>a {
     color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #e3e3e3;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #e3e3e3;
+}
+
+.navbar-default .navbar-nav>li>a:visited {
+    color: #e3e3e3;
 }
 
 .navbar-default .navbar-brand {
@@ -78,7 +89,7 @@ a {
 
 
 .searchBar {
-    padding-top: 10px;
+    padding-top: 100px;
 }
 .searchBarSub {
     float:left;
@@ -87,7 +98,7 @@ a {
 }
 
 .stylish-input-group .input-group-addonSub{
-    background: #b40431 !important; 
+    background:  #004074 !important; 
     color:#fff;
     
 }
@@ -100,7 +111,7 @@ a {
     font-size:12px;
 }
 .stylish-input-group .input-group-addon{
-    background: #b40431 !important; 
+    background:  #004074 !important; 
     color:#fff;
    
 }
@@ -146,7 +157,7 @@ a {
 
 hr.small {
     max-width:200px;
-    border-color:#b40431;
+    border-color: #0077d5;
     border-width:2px;
 }
 
@@ -282,6 +293,14 @@ hr.small {
     color:#fff;
 }
 
+.fa-circle {
+    color: #004074;
+}
+
+.fa-stack-1x {
+    color:#fff;
+}
+
 .services {
     padding: 130px 0;
     /*background-color:#b40431;*/
@@ -291,10 +310,10 @@ hr.small {
     color:#767677;
 }
 .serviceH4{
-    color:#fff;
+    color: #004074;
 }
 .serviceP {
-    color:#fff;
+    color: #004074;
 }
 .services i {
     font-color:#fff;
@@ -413,7 +432,7 @@ footer {
     padding-left:10px;
 }
 .dropdown-menu>li>a {
-    color:#B40431;
+    color:#004074;
 
 }
 /*comment box*/
@@ -496,3 +515,43 @@ footer {
 }
 
 /*==========*/
+
+
+.btn-success {
+    color: #fff;
+    background-color:  #0077d5;
+    border-color:  #0077d5;
+}
+
+.btn-success:hover {
+    background-color:  #004074;
+    border-color:  #004074;
+
+}
+
+.intro-header {
+  background-color: #777777;
+  height:500px;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+}
+
+
+.post-preview h2 {
+    color:#004074;
+}
+.post-preview h3 {
+    color:#004074;
+}
+.post-preview p {
+    color:#0077d5;
+}
+.post-preview a {
+    color:#777;
+}
+
