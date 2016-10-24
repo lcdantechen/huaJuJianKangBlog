@@ -9,190 +9,683 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog</title>
+    <title>华琚天下</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- flowPlaer -->
+     <!-- <link rel="stylesheet" href="http://releases.flowplayer.org/6.0.5/skin/functional.css"> -->
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
+   <!-- Navigation -->
+   <header>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    Menu <i class="fa fa-bars"></i>
+                    <span class="sr-only">Toggle navigation</span> 目录 <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="#top">华琚健康</a>
+                <span class="dropdown">
+                  <p class="dropdown-toggle" data-toggle="dropdown">视频分类
+                  <span class="caret"></span></p>
+                  <ul class="dropdown-menu">
+                    <li><a href="categoryPage.html">妇幼保健</a></li>
+                    <li><a href="#">孕前产后</a></li>
+                    <li><a href="#">内分泌</a></li>
+                  </ul>
+                </span>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="index.html">Home</a>
+                    <li class="hidden">
+                        <a href="#page-top"></a>
                     </li>
-                    <li>
-                        <a href="about.html">About</a>
+                    <li class="page-scroll">
+                        <a href="#about">服务</a>
                     </li>
-                    <li>
-                        <a href="post.html">Sample Post</a>
+                    <li class="page-scroll">
+                        <a href="#section01">专家解读</a>
                     </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
+                    <li class="page-scroll">
+                        <a href="#section02">最新上线</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#section03">评论最佳</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#">会员登录</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
+   </header>
 
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
-        <div class="container">
+   
+
+  
+    <!-- Header -->
+    
+ <!-- slider -->
+    
+        <div class="container topSection" id="top">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Clean Blog</h1>
-                        <hr class="small">
-                        <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                <div class="col-lg-6 col-sm-10 videoBlock ">
+                                   <!-- player container-->
+                   <object width="100%" height="423" id="undefined" name="undefined" data="http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf" type="application/x-shockwave-flash"><param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value='config={"clip":{"url":"http://stream.flowplayer.org/flowplayer-700.flv"},"playlist":[{"url":"http://stream.flowplayer.org/flowplayer-700.flv"}]}' /></object>
+                </div>   
+            </div>
+            <div class="row searchBar">
+                <div class="col-lg-6 col-sm-12">
+                    <div id="imaginary_container"> 
+                        <div class="input-group stylish-input-group">
+                            <input type="text" class="form-control"  placeholder="搜索您您关心的话题" >
+                            <span class="input-group-addon">
+                                <button type="submit">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>  
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
 
-    <!-- Main Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Man must explore, and this is exploration at its greatest
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Problems look mighty small from 150 miles up
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-                        </h2>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Science has not yet mastered prophecy
-                        </h2>
-                        <h3 class="post-subtitle">
-                            We predict too much for the next year and yet far too little for the next ten.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Failure is not an option
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
-                </div>
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
+            <div class="row">
+              <div class="col-lg-6 col-sm-12">
+
+                <h3 class="topH3">我们希望分享大家的生活的心得体会，<br/> 帮助您实现自身的健康管理. </h3>
+              </div>
             </div>
         </div>
-    </div>
+        <!-- <div class="text-vertical-center">
+            <h1>华琚天下</h1>
+            <h3>引领健康，时尚与购物</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">走进华琚</a>
+        </div> -->
+  
 
-    <hr>
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
 
+            <div class="row inbetweenRow">
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-12">
+                 <img class="img-portfolio img-responsive" src="img/demoLogoForOrg.jpg">
+                    
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                 <img class="img-portfolio img-responsive" src="img/demoLogoForOrg.jpg">
+                    
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                 <img class="img-portfolio img-responsive" src="img/demoLogoForOrg.jpg">
+                    
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                 <img class="img-portfolio img-responsive" src="img/demoLogoForOrg.jpg">
+                    
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+   
+    <section id="services" class="services">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2 class="serviceH2">华琚健康服务</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-gratipay fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4 class="serviceH4">
+                                    <strong>专家解读</strong>
+                                </h4>
+                                <p class="serviceP">轻松了解健康背后的科学。</p>
+                                <a href="#" class="btn btn-success">了解更多</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-gratipay fa-stack-1x"></i>
+                            </span>
+                                <h4 class="serviceH4">
+                                    <strong>健康资讯</strong>
+                                </h4>
+                                <p class="serviceP">新鲜资讯，随时分享！</p>
+                                <a href="#" class="btn btn-success">了解更多</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-gratipay fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4 class="serviceH4">
+                                    <strong>加盟会员</strong>
+                                </h4>
+                                <p class="serviceP">加盟华琚健康。</p>
+                                <a href="#" class="btn btn-success">了解更多</a>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+    <section id="section01" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                   <div class="col-md-8 col-md-offset-2">
+                    <h2>专家解读</h2>
+                   </div>
+                   <div class="col-md-2">
+                    <a href="categoryPage2.html" class="btn btn-secondary showAll">看全部</a>
+                   </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+
+
+                        
+                    </div>
+                     <div class="row">
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+
+
+                        
+                    </div>
+                   
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    
+    <section id="section02" class="portfolio">
+        <div class="container">
+           <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                   <div class="col-md-8 col-md-offset-2">
+                    <h2>最新上线</h2>
+                   </div>
+                   <div class="col-md-2">
+                    <a href="videoPage.html" class="btn btn-secondary showAll">看全部</a>
+                   </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                     
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                  
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section id="section03" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                   <div class="col-md-8 col-md-offset-2">
+                    <h2>评论最佳</h2>
+                   </div>
+                   <div class="col-md-2">
+                    <a href="videoPage.html" class="btn btn-secondary showAll">看全部</a>
+                   </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                   
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="portfolio-item">
+                                <a href="videoPage.html">
+                                    <img class="img-portfolio img-responsive" src="img/260X400Video.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                   
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+ 
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
+                <div class="col-lg-10 col-lg-offset-1 text-center footFont">
+                    <h4><strong>华琚健康</strong>
+                    </h4>
+                    <p>100 Hwy 9 North 
+                        <br>Manalapan, NJ 07726</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (732) 491 3335</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:support@ulove.biz">support@ulove.biz</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-pinterest fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="bottomHr">
+                    <p class="text-muted">Copyright &copy; IMPERIIA. All rights Reserved.</p>
                 </div>
             </div>
         </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
 
+    <!-- flowPlayer -->
+   <!--  <script src="http://releases.flowplayer.org/6.0.5/flowplayer.min.js"></script> -->
+
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
 
-    <!-- Theme JavaScript -->
-    <script src="js/clean-blog.min.js"></script>
+/*carousel-----------------------------*/
+/*
+    $(document).ready(function () {
+        $('.carousel').carousel({
+            interval: 3000
+        });
+
+        $('.carousel').carousel('cycle');
+    });
+*/
+
+    </script>
 
 </body>
 
